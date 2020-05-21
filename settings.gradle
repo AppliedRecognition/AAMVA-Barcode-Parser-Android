@@ -1,0 +1,2 @@
+rootProject.name='AAMVA Barcode Parser'
+include ':aamvabarcodeparser'
