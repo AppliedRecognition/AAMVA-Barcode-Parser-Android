@@ -53,12 +53,12 @@ public abstract class AAMVADocumentData extends DocumentData {
 
     @Override
     public String getDateOfExpiry() {
-        return getValueForKey("DBD");
+        return getValueForKey("DBA");
     }
 
     @Override
     public String getDateOfIssue() {
-        return getValueForKey("DBA");
+        return getValueForKey("DBD");
     }
 
     @Override
